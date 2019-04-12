@@ -28,7 +28,7 @@ class App extends Component {
           <img src={logo} className={logochangement}  alt="logo" />
           <h1 className="App-title">Simpsons Quotes</h1>
         </header>
-        <button onClick={this.handelClick}> button</button>
+        <button className={logochangement} onClick={this.handelClick}>{logochangement.toUpperCase()} </button>
         <Quote
           quote="I believe the children are the future... Unless we stop them now!"
           character="Homer Simpson"
